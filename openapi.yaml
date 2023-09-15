@@ -1,0 +1,49 @@
+---
+openapi: 3.0.0
+info:
+  title: L5 OpenApi
+  description: L5 Swagger OpenApi description
+  contact:
+    email: jtrevorrow@ironistic.com
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+  x-logo:
+    url: https://via.placeholder.com/190x90.png?text=L5-Swagger
+servers:
+- url: https://myowl-client-api.dev1-ironistic.com/
+  description: L5 Swagger OpenApi dynamic host server
+- url: https://myowl-client-api.dev1-ironistic.com/api/
+  description: L5 Swagger OpenApi Server
+paths:
+  "/api": {}
+  "/api/v1/register":
+    post:
+      summary: Adds a new user to the system
+      operationId: register
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                name:
+                  description: First Name
+                  type: string
+                lastName:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+                password_confirmation:
+                  type: string
+                roleId:
+                  description: 5=Parent, 6=Student
+                  type: integer
+              type: object
+      responses:
+        '200':
+          description: An example endpoint
+components:
+  securitySchemes: {}
