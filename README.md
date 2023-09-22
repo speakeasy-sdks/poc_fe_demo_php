@@ -36,8 +36,6 @@ composer update
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```php
 <?php
 
@@ -52,12 +50,12 @@ $sdk = MyOwl::builder()
 
 try {
     $request = new RegisterRequestBody();
-    $request->email = 'Larue_Rau85@yahoo.com';
-    $request->lastName = 'Little';
-    $request->name = 'Ben Mueller';
-    $request->password = 'iure';
-    $request->passwordConfirmation = 'magnam';
-    $request->roleId = 891773;
+    $request->email = 'Vincenzo.Goldner@gmail.com';
+    $request->lastName = 'Schiller';
+    $request->name = 'Ken Kshlerin';
+    $request->password = 'recusandae';
+    $request->passwordConfirmation = 'temporibus';
+    $request->roleId = 71036;
 
     $response = $sdk->register($request);
 
@@ -77,6 +75,18 @@ try {
 
 * [register](docs/sdks/myowl/README.md#register) - Adds a new user to the system
 <!-- End SDK Available Operations -->
+
+
+
+<!-- Start Dev Containers -->
+
+
+
+<!-- End Dev Containers -->
+
+<!-- Placeholder for Future Speakeasy SDK Sections -->
+
+
 
 ### Maturity
 

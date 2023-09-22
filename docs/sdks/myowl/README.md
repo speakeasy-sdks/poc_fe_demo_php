@@ -28,12 +28,12 @@ $sdk = MyOwl::builder()
 
 try {
     $request = new RegisterRequestBody();
-    $request->email = 'Vincenzo.Goldner@gmail.com';
-    $request->lastName = 'Schiller';
-    $request->name = 'Ken Kshlerin';
-    $request->password = 'recusandae';
-    $request->passwordConfirmation = 'temporibus';
-    $request->roleId = 71036;
+    $request->email = 'Ashlee36@yahoo.com';
+    $request->lastName = 'Sipes';
+    $request->name = 'Cedric Connelly';
+    $request->password = 'maiores';
+    $request->passwordConfirmation = 'molestiae';
+    $request->roleId = 799159;
 
     $response = $sdk->myOwl->register($request);
 

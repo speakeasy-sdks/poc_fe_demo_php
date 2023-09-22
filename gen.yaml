@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 78e8b31dbc60cde763fceddd3cf1a4da
   docVersion: 1.0.0
-  speakeasyVersion: 1.86.0
-  generationVersion: 2.115.2
+  speakeasyVersion: 1.89.0
+  generationVersion: 2.125.1
 generation:
   comments:
     disableComments: false
@@ -14,10 +14,10 @@ generation:
   tagNamespacingDisabled: false
 features:
   php:
-    core: 2.85.4
+    core: 2.85.5
     globalServerURLs: 2.82.0
 php:
-  version: 0.1.0
+  version: 0.1.1
   maxMethodParams: 0
   namespace: MyOwl\MyOwl
   packageName: myowl/myowl
