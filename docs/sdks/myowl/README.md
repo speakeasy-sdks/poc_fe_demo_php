@@ -1,5 +1,6 @@
 # MyOwl SDK
 
+
 ## Overview
 
 L5 OpenApi: L5 Swagger OpenApi description
@@ -28,12 +29,12 @@ $sdk = MyOwl::builder()
 
 try {
     $request = new RegisterRequestBody();
-    $request->email = 'Ashlee36@yahoo.com';
-    $request->lastName = 'Sipes';
-    $request->name = 'Cedric Connelly';
-    $request->password = 'maiores';
-    $request->passwordConfirmation = 'molestiae';
-    $request->roleId = 799159;
+    $request->email = 'Bruce_Miller77@gmail.com';
+    $request->lastName = 'Herzog';
+    $request->name = 'deposit Southwest';
+    $request->password = 'NwaWEGIKzVTB0t_';
+    $request->passwordConfirmation = 'Checking Bronze';
+    $request->roleId = 519703;
 
     $response = $sdk->myOwl->register($request);
 
