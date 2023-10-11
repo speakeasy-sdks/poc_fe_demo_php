@@ -7,11 +7,10 @@
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \MyOwl\MyOwl\MyOwl;
-use \MyOwl\MyOwl\Models\Operations\RegisterRequestBody;
+use MyOwl\MyOwl\MyOwl;
+use MyOwl\MyOwl\Models\Operations\RegisterRequestBody;
 
-$sdk = MyOwl::builder()
-    ->build();
+$sdk = MyOwl::builder()->build();
 
 try {
     $request = new RegisterRequestBody();
@@ -22,7 +21,7 @@ try {
     $request->passwordConfirmation = 'Checking Bronze';
     $request->roleId = 519703;
 
-    $response = $sdk->register($request);
+    $response = $sdk->myOwl->register($request);
 
     if ($response->statusCode === 200) {
         // handle response
@@ -30,5 +29,6 @@ try {
 } catch (Exception $e) {
     // handle exception
 }
+
 ```
 <!-- End SDK Example Usage -->
