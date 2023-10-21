@@ -51,10 +51,10 @@ try {
     $request = new RegisterRequestBody();
     $request->email = 'Bruce_Miller77@gmail.com';
     $request->lastName = 'Herzog';
-    $request->name = 'deposit Southwest';
-    $request->password = 'NwaWEGIKzVTB0t_';
-    $request->passwordConfirmation = 'Checking Bronze';
-    $request->roleId = 519703;
+    $request->name = 'string';
+    $request->password = 'DKNwaWEGIKzVTB0';
+    $request->passwordConfirmation = 'string';
+    $request->roleId = 879401;
 
     $response = $sdk->myOwl->register($request);
 
