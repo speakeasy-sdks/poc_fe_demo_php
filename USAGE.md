@@ -7,13 +7,13 @@
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use MyOwl\MyOwl\MyOwl;
-use MyOwl\MyOwl\Models\Operations\RegisterRequestBody;
+use MyOwl\MyOwl;
+use MyOwl\MyOwl\Models\Operations;
 
-$sdk = MyOwl::builder()->build();
+$sdk = MyOwl\MyOwl::builder()->build();
 
 try {
-    $request = new RegisterRequestBody();
+    $request = new Operations\RegisterRequestBody();
     $request->email = 'Bruce_Miller77@gmail.com';
     $request->lastName = 'Herzog';
     $request->name = 'string';
@@ -21,7 +21,7 @@ try {
     $request->passwordConfirmation = 'string';
     $request->roleId = 879401;
 
-    $response = $sdk->myOwl->register($request);
+    $response = $sdk->register($request);
 
     if ($response->statusCode === 200) {
         // handle response
