@@ -50,10 +50,10 @@ try {
 
 | Parameter                                                                                            | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
 | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                           | [\MyOwl\MyOwl\Models\Operations\RegisterRequestBody](../../models/operations/RegisterRequestBody.md) | :heavy_check_mark:                                                                                   | The request object to use for the request.                                                           |
+| `$request`                                                                                           | [\MyOwl\MyOwl\Models\Operations\RegisterRequestBody](../../Models/Operations/RegisterRequestBody.md) | :heavy_check_mark:                                                                                   | The request object to use for the request.                                                           |
 
 
 ### Response
 
-**[?\MyOwl\MyOwl\Models\Operations\RegisterResponse](../../models/operations/RegisterResponse.md)**
+**[?\MyOwl\MyOwl\Models\Operations\RegisterResponse](../../Models/Operations/RegisterResponse.md)**
 

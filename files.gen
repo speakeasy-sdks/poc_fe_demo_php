@@ -22,7 +22,7 @@ src/Utils/Utils.php
 src/Models/Operations/RegisterRequestBody.php
 src/Models/Operations/RegisterResponse.php
 USAGE.md
-docs/models/operations/RegisterRequestBody.md
-docs/models/operations/RegisterResponse.md
+docs/Models/Operations/RegisterRequestBody.md
+docs/Models/Operations/RegisterResponse.md
 docs/sdks/myowl/README.md
 .gitattributes
