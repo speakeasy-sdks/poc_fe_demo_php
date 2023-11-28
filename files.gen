@@ -21,8 +21,8 @@ src/Utils/SpeakeasyMetadata.php
 src/Utils/Utils.php
 src/Models/Operations/RegisterRequestBody.php
 src/Models/Operations/RegisterResponse.php
-USAGE.md
 docs/Models/Operations/RegisterRequestBody.md
 docs/Models/Operations/RegisterResponse.md
 docs/sdks/myowl/README.md
+USAGE.md
 .gitattributes
