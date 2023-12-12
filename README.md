@@ -81,6 +81,28 @@ try {
 
 
 
+<!-- Start Server Selection [server] -->
+## Server Selection
+
+## Server Selection
+
+### Select Server by Index
+
+You can override the default server globally by passing a server index to the `server_idx: int` optional parameter when initializing the SDK client instance. The selected server will then be used as the default on the operations that use it. This table lists the indexes associated with the available servers:
+
+| # | Server | Variables |
+| - | ------ | --------- |
+| 0 | `https://myowl-client-api.dev1-ironistic.com/` | None |
+| 1 | `https://myowl-client-api.dev1-ironistic.com/api/` | None |
+
+
+
+
+### Override Server URL Per-Client
+
+The default server can also be overridden globally by passing a URL to the `server_url: str` optional parameter when initializing the SDK client instance. For example:
+<!-- End Server Selection [server] -->
+
 <!-- Placeholder for Future Speakeasy SDK Sections -->
 
 

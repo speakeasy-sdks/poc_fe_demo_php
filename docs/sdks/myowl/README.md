@@ -24,17 +24,16 @@ require_once 'vendor/autoload.php';
 use \MyOwl\MyOwl;
 use \MyOwl\MyOwl\Models\Operations;
 
-$sdk = MyOwl\MyOwl::builder()
-    ->build();
+$sdk = MyOwl\MyOwl::builder()->build();
 
 try {
-    $request = new Operations\RegisterRequestBody();
+        $request = new Operations\RegisterRequestBody();
     $request->email = 'Bruce_Miller77@gmail.com';
     $request->lastName = 'Herzog';
     $request->name = 'string';
     $request->password = 'DKNwaWEGIKzVTB0';
     $request->passwordConfirmation = 'string';
-    $request->roleId = 879401;
+    $request->roleId = 879401;;
 
     $response = $sdk->register($request);
 

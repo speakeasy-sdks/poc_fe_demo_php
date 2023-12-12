@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 78e8b31dbc60cde763fceddd3cf1a4da
   docVersion: 1.0.0
-  speakeasyVersion: 1.123.0
-  generationVersion: 2.202.2
+  speakeasyVersion: 1.126.0
+  generationVersion: 2.213.3
 generation:
   comments: {}
   sdkClassName: MyOwl
@@ -12,10 +12,10 @@ generation:
     optionalPropertyRendering: withExample
 features:
   php:
-    core: 3.1.2
+    core: 3.2.0
     globalServerURLs: 2.82.1
 php:
-  version: 0.6.3
+  version: 0.7.0
   imports:
     option: openapi
     paths:
