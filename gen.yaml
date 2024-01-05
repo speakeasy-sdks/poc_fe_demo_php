@@ -1,19 +1,10 @@
-configVersion: 1.0.0
-management:
-  docChecksum: 78e8b31dbc60cde763fceddd3cf1a4da
-  docVersion: 1.0.0
-  speakeasyVersion: 1.126.0
-  generationVersion: 2.213.3
+configVersion: 2.0.0
 generation:
-  comments: {}
   sdkClassName: MyOwl
-  repoURL: https://github.com/speakeasy-sdks/poc_fe_demo_php.git
   usageSnippets:
     optionalPropertyRendering: withExample
-features:
-  php:
-    core: 3.2.0
-    globalServerURLs: 2.82.1
+  fixes:
+    nameResolutionDec2023: false
 php:
   version: 0.7.0
   imports:
@@ -25,9 +16,7 @@ php:
       shared: Models/Shared
       webhooks: Models/Webhooks
   inputModelSuffix: input
-  installationURL: https://github.com/speakeasy-sdks/poc_fe_demo_php
   maxMethodParams: 0
   namespace: MyOwl\MyOwl
   outputModelSuffix: output
   packageName: myowl/myowl
-  repoSubDirectory: .
