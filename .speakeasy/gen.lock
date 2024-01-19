@@ -4,7 +4,7 @@ management:
   docChecksum: 78e8b31dbc60cde763fceddd3cf1a4da
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
+  generationVersion: 2.237.2
   releaseVersion: 0.7.0
   configChecksum: e5bb447d49341b983f20a6a36c773ef3
   repoURL: https://github.com/speakeasy-sdks/poc_fe_demo_php.git
