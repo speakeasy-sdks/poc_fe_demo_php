@@ -4,15 +4,15 @@ management:
   docChecksum: 78e8b31dbc60cde763fceddd3cf1a4da
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.237.2
-  releaseVersion: 0.7.0
-  configChecksum: e5bb447d49341b983f20a6a36c773ef3
+  generationVersion: 2.253.0
+  releaseVersion: 0.7.1
+  configChecksum: 8aec07f9bc9ca83005b71526119f7ab8
   repoURL: https://github.com/speakeasy-sdks/poc_fe_demo_php.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/poc_fe_demo_php
 features:
   php:
-    core: 3.3.0
+    core: 3.3.1
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/SDKConfiguration.php
@@ -20,6 +20,7 @@ generatedFiles:
   - src/MyOwlBuilder.php
   - composer.json
   - phpstan.neon
+  - rector.php
   - src/Utils/EnumHandler.php
   - src/Utils/FormMetadata.php
   - src/Utils/Headers.php
