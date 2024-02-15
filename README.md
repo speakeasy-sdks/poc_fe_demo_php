@@ -54,9 +54,9 @@ try {
     $request = new Operations\RegisterRequestBody();
     $request->email = 'Bruce_Miller77@gmail.com';
     $request->lastName = 'Herzog';
-    $request->name = 'string';
+    $request->name = '<value>';
     $request->password = 'DKNwaWEGIKzVTB0';
-    $request->passwordConfirmation = 'string';
+    $request->passwordConfirmation = '<value>';
     $request->roleId = 879401;
 
     $response = $sdk->register($request);
