@@ -16,11 +16,9 @@ namespace MyOwl\MyOwl;
  */
 class MyOwlBuilder
 {
-    private SDKConfiguration $sdkConfig;
-
-    public function __construct() {
-        $this->sdkConfig = new SDKConfiguration();
-    }
+    public function __construct(
+        private SDKConfiguration $sdkConfig = new SDKConfiguration(),
+    ) {}
 
     /**
      * setClient allows setting a custom Guzzle client for the SDK to make requests with.
@@ -31,6 +29,7 @@ class MyOwlBuilder
     public function setClient(\GuzzleHttp\ClientInterface $client): MyOwlBuilder
     {
         $this->sdkConfig->defaultClient = $client;
+
         return $this;
     }
     
@@ -44,6 +43,7 @@ class MyOwlBuilder
     public function setServerUrl(string $serverUrl, ?array $params = null): MyOwlBuilder
     {
         $this->sdkConfig->serverUrl = Utils\Utils::templateUrl($serverUrl, $params);
+
         return $this;
     }
     
@@ -56,6 +56,7 @@ class MyOwlBuilder
     public function setServerIndex(int $serverIdx): MyOwlBuilder
     {
         $this->sdkConfig->serverIndex = $serverIdx;
+
         return $this;
     }
     

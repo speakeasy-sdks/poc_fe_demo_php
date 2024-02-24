@@ -22,8 +22,7 @@ class MyOwl
         /** L5 Swagger OpenApi Server */
 		'https://myowl-client-api.dev1-ironistic.com/api/',
 	];
-  		
-	private SDKConfiguration $sdkConfiguration;
+  	
 
 	/**
 	 * Returns a new instance of the SDK builder used to configure and create the SDK instance.
@@ -38,9 +37,9 @@ class MyOwl
 	/**
 	 * @param SDKConfiguration $sdkConfiguration
 	 */
-	public function __construct(SDKConfiguration $sdkConfiguration)
-	{
-		$this->sdkConfiguration = $sdkConfiguration;
+	public function __construct(
+		private SDKConfiguration $sdkConfiguration,
+	) {
 	}
 	
     /**

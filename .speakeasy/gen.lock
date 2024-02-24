@@ -4,15 +4,15 @@ management:
   docChecksum: 78e8b31dbc60cde763fceddd3cf1a4da
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.7.2
-  configChecksum: 095738676f3be145f05c22f852f429fd
+  generationVersion: 2.272.4
+  releaseVersion: 0.7.3
+  configChecksum: 0742b8a93fa073df9aec0407383af803
   repoURL: https://github.com/speakeasy-sdks/poc_fe_demo_php.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/poc_fe_demo_php
 features:
   php:
-    core: 3.3.2
+    core: 3.3.3
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/SDKConfiguration.php
